@@ -1,6 +1,28 @@
+.header {
+    height: 83px;
+    background-color: rgb(19, 19, 19);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-navigation {
+    list-style: none;
+    display: flex;
+}
+
+.header-navigation a {
+    color: rgb(255,255,255,1);
+    text-decoration: none;
+    margin: 37px 47px 36px;
+}
+
+.header .special-link {
+    color: rgba(227,184,115,1);
+}
+
 .wrapper {
     background-image: url(../images/image4.3.jpg);
     width: 1480px;
-    height: 100%;
+    height: 707px;
     background-color: black;
 }
