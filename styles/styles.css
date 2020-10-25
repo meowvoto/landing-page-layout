@@ -26,3 +26,18 @@
     height: 707px;
     background-color: black;
 }
+.call-button {
+    color: white;
+    background-color: rgba(227,184,115,1);
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border: none;
+    padding: 13px 33px;
+    border-radius: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Nunito Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+}
