@@ -5,6 +5,7 @@
     justify-content: space-around;
     align-items: center;
 }
+
 .header-navigation {
     list-style: none;
     display: flex;
@@ -16,11 +17,17 @@
     margin: 37px 47px 36px;
 }
 
-.header .special-link {
+.logo, .header .special-link {
     color: rgba(227,184,115,1);
 }
-
-.wrapper {
+.shading {
+    width: 1480px;
+    height: 707px;
+    position: absolute;
+    z-index: 2;
+    background-color: rgba(0,0,0,0.7);
+}
+.section1 {
     background-image: url(../images/image4.3.jpg);
     width: 1480px;
     height: 707px;
