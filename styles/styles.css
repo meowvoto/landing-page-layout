@@ -13,6 +13,7 @@ body {
 body .beige {
     color: rgba(227,184,115,1);
 }
+
 /* header styles */
 
 
@@ -82,4 +83,13 @@ body .beige {
     width: 676px;
     height: 305px;
     margin-left: 134px;
+    padding-top: 156px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.heading {
+    margin: 0;
 }
