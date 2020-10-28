@@ -5,6 +5,7 @@
 body {
     margin: 0;
 }
+
 .main-wrapper {
     max-width: 1440px;
     margin: 0 auto;
@@ -45,7 +46,7 @@ body .beige {
     margin: 37px 47px 36px;
 }
 
-.call-button {
+.button {
     color: white;
     background-color: rgba(227,184,115,1);
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
@@ -60,7 +61,6 @@ body .beige {
     font-size: 11px;
     line-height: 15px;
 }
-
 
 /* section-1 styles */
 
@@ -92,4 +92,16 @@ body .beige {
 
 .heading {
     margin: 0;
+}
+
+/* buttons */
+
+.call-button {
+    color: white;
+}
+
+.application_button {
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    background: none;
 }
