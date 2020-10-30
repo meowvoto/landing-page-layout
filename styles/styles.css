@@ -5,6 +5,11 @@
 body {
     margin: 0;
     color: white;
+    font-family: Nunito Sans, Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
 }
 
 body * {
@@ -20,7 +25,6 @@ body .beige {
     background-color: rgba(227,184,115,1);
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
     border: none;
-    padding: 13px 33px;
     border-radius: 2px;
     text-align: center;
     text-transform: uppercase;
@@ -71,17 +75,29 @@ body .beige {
     background-image: url(../images/image4.3.jpg);
     height: 707px;
     background-size: cover;
+    background-position: center center;
 }
 
-.section-1_content {
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start; */
+.shading {
     height: 707px;
     background-color: rgba(0,0,0,0.7);
 }
 
+.section-1_content {
+    max-width: 1256px;
+    padding-left: 134px;
+    margin: 0 auto;
+}
+
+.text {
+    width: 504px;
+    font-size: 22px;
+    line-height: 36px;
+}
+
 .heading {
+    padding-top: 194px;
+    width: 676px;
     margin: 0;
     font-family: Yeseva One;
     font-style: normal;
@@ -94,7 +110,7 @@ body .beige {
 /* buttons */
 
 .call-button {
-    color: white;
+    padding: 13px 33px;
 }
 
 .application_button {
@@ -103,3 +119,14 @@ body .beige {
     background: none;
     margin-left: 20px;
 }
+
+.section-1_button {
+    width: 207px;
+    height: 51px;
+}
+
+@media screen and (max-width: 1300px) {
+    .section-1{
+        
+    }
+  }
