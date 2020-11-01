@@ -1,5 +1,5 @@
 
-/* common styles */
+/* common */
 
 
 body {
@@ -24,7 +24,7 @@ body * {
     box-sizing: border-box;
 }
 
-body .beige {
+.beige {
     color: rgba(227,184,115,1);
 }
 
@@ -45,7 +45,7 @@ body .beige {
     cursor: pointer;
 }
 
-/* header styles */
+/* header */
 
 
 .header {
@@ -82,7 +82,7 @@ body .beige {
     text-transform: uppercase;
 }
 
-/* section-1 styles */
+/* section-1 */
 
 .section-1{
     background-image: url(../images/image4.3.jpg);
@@ -102,13 +102,6 @@ body .beige {
     margin: 0 auto;
 }
 
-.text {
-    max-width: 504px;
-    font-size: 22px;
-    line-height: 36px;
-    margin-top: 16px;
-}
-
 .heading {
     padding-top: 194px;
     max-width: 676px;
@@ -118,6 +111,13 @@ body .beige {
     font-size: 40px;
     line-height: 53px;
     text-transform: uppercase;
+}
+
+.text {
+    max-width: 504px;
+    font-size: 22px;
+    line-height: 36px;
+    margin-top: 19px;
 }
 
 /* buttons */
@@ -135,9 +135,15 @@ body .beige {
 .section-1_button {
     width: 207px;
     height: 51px;
-    margin-top: 26px;
+    margin-top: 41px;
     margin-right: 20px;
 }
+
+.mobile_button {
+    display: none;
+}
+
+/* media styles */
 
 @media screen and (max-width: 1299px) {
     .header-navigation, .call-button{
@@ -149,11 +155,21 @@ body .beige {
         height: 57px;
     }
 
+    .number {
+        color: white;
+        text-decoration: none;
+    }
+
+    .section-1, .shading {
+        height: 476px;
+    }
+
     .section-1_content {
         padding: 0px 18px;
     }
     
     .heading {
+        padding-top: 85px;
         font-size: 23px;
         line-height: 132.83%;
     }
@@ -161,9 +177,20 @@ body .beige {
     .text {
         font-size: 14px;
         line-height: 135.84%;
+        margin-top: 16px;
+        margin-bottom: 32px;
     }   
 
     .section-1_button {
         width: 338.61px;
+        margin-top: 26px;
     }
+
+    .mobile_button {
+        display: block;
+    }
+
+    .desktop_button {
+        display: none;
+    }    
   }
