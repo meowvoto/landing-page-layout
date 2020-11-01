@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-    margin: 0 0 10px;
+    margin: 0;
 }
 
 body * {
@@ -61,6 +61,7 @@ body .beige {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 83px;
 }
 
 .header-navigation {
@@ -145,6 +146,7 @@ body .beige {
 
     .header-wrapper {
         padding: 23px 18px;
+        height: 57px;
     }
 
     .section-1_content {
