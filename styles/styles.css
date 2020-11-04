@@ -182,8 +182,9 @@ body * {
     }   
 
     .section-1_button {
-        width: 338.61px;
+        max-width: 338.61px;
         margin-top: 26px;
+        width: 100%; 
     }
 
     .mobile_button {
