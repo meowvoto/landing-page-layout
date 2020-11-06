@@ -89,18 +89,22 @@ body * {
 
 .section-1{
     background-image: url(../images/image4.3.jpg);
-    height: 707px;
+    /* height: 707px; */
     background-size: cover;
     background-position: center center;
 }
 
 .shading {
-    height: 707px;
+    /* height: 707px; */
     background-color: rgba(0,0,0,0.7);
 }
 
-.heading {
+.section-1_content {
     padding-top: 194px;
+    padding-bottom: 208px;
+}
+
+.heading {
     max-width: 676px;
     font-family: Yeseva One;
     font-style: normal;
@@ -157,16 +161,11 @@ body * {
         text-decoration: none;
     }
 
-    .section-1, .shading {
-        height: 476px;
-    }
-
     .section-1_content {
-        padding: 0px 18px;
+        padding: 85px 18px 61px;
     }
     
     .heading {
-        padding-top: 85px;
         font-size: 23px;
         line-height: 132.83%;
     }
