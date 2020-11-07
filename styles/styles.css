@@ -89,9 +89,6 @@ body * {
     text-decoration: none;
 }
 
-.logo {
-    text-transform: uppercase;
-}
 
 /* section-1 */
 
@@ -140,13 +137,15 @@ body * {
 .project_name {
     color: rgba(255, 255, 255, 0.3);
     font-family: Yeseva One, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    padding-bottom: 7px;
     margin-right: 60.5px;
-    padding-bottom: 53px;
 }
 
 .curent {
     color: #E3B873;
-    text-decoration: underline;
+    border-bottom: solid thin #E3B873;
 }
 
 .project_name:hover {
@@ -171,6 +170,34 @@ body * {
 .admiral_img {
     width: 679px;
     height: 482px;
+    padding-top: 53px;
+}
+
+.description {
+    width: 442px;
+    height: 290px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.description h3 {
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 32px;
+}
+
+.project_information p {
+    font-size: 13px;
+    line-height: 21px;
+}
+
+.project_information {
+    width: 180px;
+}
+
+.pagination {
+    margin-top: 80px;
+    width: 206px;
 }
 
 /* buttons */
