@@ -13,6 +13,10 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+    font-family: Yeseva One, Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
     margin: 0;
 }
 
@@ -93,13 +97,11 @@ body * {
 
 .section-1{
     background-image: url(../images/image4.3.jpg);
-    /* height: 707px; */
     background-size: cover;
     background-position: center center;
 }
 
 .shading {
-    /* height: 707px; */
     background-color: rgba(0,0,0,0.7);
 }
 
@@ -108,14 +110,10 @@ body * {
     padding-bottom: 208px;
 }
 
-.heading {
+.section-1_heading {
     max-width: 676px;
-    font-family: Yeseva One;
-    font-style: normal;
-    font-weight: normal;
     font-size: 40px;
     line-height: 53px;
-    text-transform: uppercase;
 }
 
 .section-1_text {
@@ -124,6 +122,7 @@ body * {
     line-height: 36px;
     margin-top: 19px;
 }
+
 
 /* section-2 */
 
@@ -134,10 +133,15 @@ body * {
 .section-2_content {
     padding-top: 107px;
     padding-bottom: 415px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .project_name {
     color: rgba(255, 255, 255, 0.3);
+    font-family: Yeseva One, Helvetica, Arial, sans-serif;
+    margin-right: 60.5px;
+    padding-bottom: 53px;
 }
 
 .curent {
@@ -147,6 +151,26 @@ body * {
 
 .project_name:hover {
     cursor: pointer;
+}
+
+.s2_heading {
+    margin-top: 69px;
+    margin-bottom: 34px;
+    font-size: 27px;
+    line-height: 37px;
+    height: 66px;
+    width: 253px;
+}
+.section-2_text {
+    width: 442px;
+    height: 86px;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+.admiral_img {
+    width: 679px;
+    height: 482px;
 }
 
 /* buttons */
@@ -220,3 +244,30 @@ body * {
         display: none;
     }    
   }
+
+/* iconic font */
+
+@font-face {
+    font-family: 'icons';
+    src: url('../fonts/icons.eot');
+    src: url('../fonts/icons.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/icons.woff') format('woff'),
+         url('../fonts/icons.ttf') format('truetype'),
+         url('../fonts/icons.svg#icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+[class*='icon-']:before{
+	display: inline-block;
+   font-family: 'icons';
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale
+}
+.icon-stroke1:before{content:'\0041';}
+.icon-stroke2:before{content:'\0042';}
+.icon-camera:before{content:'\0043';}
+.icon-tools:before{content:'\0044';}
+.icon-dot:before{content:'\0045';}
