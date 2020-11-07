@@ -28,6 +28,10 @@ body * {
     color: rgba(227,184,115,1);
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
 .button {
     padding: 0;
     color: white;
@@ -114,11 +118,35 @@ body * {
     text-transform: uppercase;
 }
 
-.text {
+.section-1_text {
     max-width: 504px;
     font-size: 22px;
     line-height: 36px;
     margin-top: 19px;
+}
+
+/* section-2 */
+
+.section-2 {
+    background-color: #131313;
+}
+
+.section-2_content {
+    padding-top: 107px;
+    padding-bottom: 415px;
+}
+
+.project_name {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.curent {
+    color: #E3B873;
+    text-decoration: underline;
+}
+
+.project_name:hover {
+    cursor: pointer;
 }
 
 /* buttons */
@@ -143,6 +171,7 @@ body * {
 .mobile_button {
     display: none;
 }
+
 
 /* media styles */
 
@@ -170,7 +199,7 @@ body * {
         line-height: 132.83%;
     }
 
-    .text {
+    .section-1_text {
         font-size: 14px;
         line-height: 135.84%;
         margin-top: 16px;
