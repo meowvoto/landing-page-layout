@@ -168,6 +168,7 @@ body * {
 }
 
 .admiral_img {
+    display: block;
     width: 679px;
     height: 482px;
     padding-top: 53px;
@@ -203,7 +204,57 @@ body * {
 }
 
 .icon-dot {
-    font-size: 7px;
+    font-size: 9px;
+}
+
+.other_dot {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+
+/* section 3 */
+
+.section-3_container {
+    position: relative;
+    top: -324px;
+    text-align: center;
+}
+
+.section-3_heading {
+    color: white;
+}
+
+.section-3_headings-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-camera {
+    color: #E3B873;
+}
+
+.heading_line {
+    position: absolute;
+    background-color: #E3B873; 
+    height: 1.54px;
+    width: 32px;
+    margin: 10px;
+}
+
+.section-3_image {
+    width: 817px;
+    height: 434px;
+    margin-top: 34px;
+}
+
+.section-3_image::before {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.section-3_text {
+    width: 681px;
+    height: 131px;
 }
 
 /* buttons */
