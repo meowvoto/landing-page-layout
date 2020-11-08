@@ -199,16 +199,57 @@ body * {
 .pagination {
     margin-top: 80px;
     width: 206px;
+}
+
+.flex-pagination {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.icon-dot {
-    font-size: 9px;
+.dot {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    margin: 0px 7px;
 }
 
-.other_dot {
-    color: rgba(255, 255, 255, 0.3);
+
+/* section-3 arrows */
+
+.arrow {
+    display: block;
+    background-color: white;
+    width: 40.5px;
+    height: 1.3px;
+}
+
+.arrow-left::before {
+    content: '';
+    display: block;
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 1px;
+    background-color: white;
+    transform: rotate(45deg);
+    transform-origin: 0% 0%;
+}
+
+.arrow-left::after {
+    content: '';
+    display: block;
+    position: relative;
+    top: -1px;
+    right: 0;
+    width: 10px;
+    height: 1px;
+    background-color: white;
+    transform: rotate(-45deg);
+    transform-origin: 0% 0%;
 }
 
 
