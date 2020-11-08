@@ -216,6 +216,10 @@ body * {
     margin: 0px 7px;
 }
 
+.other_dot {
+    background: rgba(255, 255, 255, 0.3);
+}
+
 
 /* section-3 arrows */
 
@@ -230,8 +234,6 @@ body * {
     content: '';
     display: block;
     position: relative;
-    top: 0;
-    right: 0;
     width: 10px;
     height: 1px;
     background-color: white;
@@ -252,6 +254,30 @@ body * {
     transform-origin: 0% 0%;
 }
 
+.arrow-right::before {
+    content: '';
+    display: block;
+    position: relative;
+    top: 1px;
+    left: 40px;
+    width: 10px;
+    height: 1px;
+    background-color: white;
+    transform: rotate(135deg);
+    transform-origin: 0% 0%;
+}
+
+.arrow-right::after {
+    content: '';
+    display: block;
+    position: relative;
+    left: 40px;
+    width: 10px;
+    height: 1px;
+    background-color: white;
+    transform: rotate(-135deg);
+    transform-origin: 0% 0%;
+}
 
 /* section 3 */
 
