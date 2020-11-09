@@ -190,6 +190,7 @@ body * {
 .project_information p {
     font-size: 13px;
     line-height: 21px;
+    margin-top: 9px;
 }
 
 .project_information {
@@ -221,13 +222,14 @@ body * {
 }
 
 
-/* section-3 arrows */
+/* section-2 arrows */
 
 .arrow {
     display: block;
     background-color: white;
     width: 40.5px;
     height: 1.3px;
+    cursor: pointer;
 }
 
 .arrow-left::before {
@@ -294,19 +296,19 @@ body * {
 
 .section-3_heading {
     color: white;
+    font-size: 20px;
+    line-height: 28px;
 }
 
 .section-3_headings-items {
     display: flex;
     justify-content: space-between;
-}
-
-.icon-camera {
-    color: #E3B873;
+    margin-top: 13px;
 }
 
 .heading_line {
-    position: absolute;
+    display: block;
+    position: relative;
     background-color: #E3B873; 
     height: 1.54px;
     width: 32px;
@@ -329,6 +331,11 @@ body * {
     width: 681px;
     height: 131px;
     margin-top: 98.5px;
+}
+
+.section-3_vector_camera {
+    width: 32.77px;
+    height: 28px;
 }
 
 /* Section 4 */
