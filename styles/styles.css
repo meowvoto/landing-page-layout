@@ -53,6 +53,11 @@ body * {
     cursor: pointer;
 }
 
+.horizontal_separation {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* header */
 
 
@@ -315,27 +320,113 @@ body * {
     margin: 10px;
 }
 
+.section-3_overline {
+    display: block;
+    width: 55px;
+    height: 1.54px;
+    background-color: #E3B873;
+    margin-top: 62.5px;
+}
+
 .section-3_image {
     display: block;
+    position: relative;
     width: 817px;
     height: 434px;
     margin-top: 72px;
+    background-image: url(../images/online_control.jpg);
 }
 
 .section-3_image::before {
     content: '';
-    background-color: rgba(0, 0, 0, 0.15);
+    position: absolute;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 817px;
+    height: 434px;
+}
+
+.circle {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    width: 85px;
+    height: 85px;
+    left: 365px;
+    top: 174px;
+    background: #E3B873;
+    box-shadow: 0px 5px 30px rgba(227, 184, 115, 0.2);
+    border-radius: 50%;
 }
 
 .section-3_text {
     width: 681px;
     height: 131px;
-    margin-top: 98.5px;
+    margin-top: 34.5px;
+    font-size: 18px;
+    line-height: 37px;
 }
 
-.section-3_vector_camera {
-    width: 32.77px;
-    height: 28px;
+.contacts {
+    margin-top: 91.5px;
+    display: flex;
+    
+}
+
+.form-wrapper {
+    width: 231px;
+    height: 45px;
+    margin-right: 49px;
+    text-align: left;
+}
+
+.text, .phone {
+    border: none;
+    /* border-bottom: 1px solid rgba(54, 54, 54, 0.3); */
+}
+
+.label {
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(54, 54, 54, 0.5);
+}
+
+.section-3_input {
+    font-size: 14px;
+    line-height: 23px;
+    color: #363636;
+}
+
+.checkbox_wrapper {
+    margin-top: 37px;
+}
+
+.bad_checkbox {
+    display: none;
+}
+
+.good_checkbox {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: #E3B873;
+    border-radius: 1px;
+    vertical-align: top;
+}
+
+.good_checkbox::after {
+    content:'';
+    position: absolute;
+    background-image: url(../images/veсtor/checkmark.svg);
+}
+
+.bad-checkbox:checked + .good_checkbox::after{
+    opacity: 1;
+  }
+
+.agreement {
+    font-size: 14px;
+    line-height: 23px;    
 }
 
 /* Section 4 */
@@ -343,6 +434,21 @@ body * {
 .section-4_container {
     color: black;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-4_heading {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.repair_icons {
+    width: 114px;
+    height: 28px;
+    margin-top: 13px;
+    margin-bottom: 31px;
 }
 
 .repair_types {
@@ -380,6 +486,18 @@ body * {
     left: 31px;
     top: 294px;
     text-align: left;
+}
+
+.panel li {
+    font-size: 13px;
+    line-height: 27px;
+    color: #959595;
+}
+
+.panel h4 {
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;
 }
 
 /* buttons */

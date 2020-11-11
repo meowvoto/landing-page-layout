@@ -10,7 +10,7 @@
     </head>
     <body>
         <header class="header">
-            <div class="header-wrapper">
+            <div class="header-wrapper ">
                 <div class="beige uppercase">IC "Repair Design Project"</div>
                 <nav>
                     <ul class="header-navigation">
@@ -80,15 +80,30 @@
                             <img src="images/veсtor/camera.svg" alt="icon of a camera" class="section-3_vector_camera">
                             <span class="heading_line"></span>
                             </div>
-                            <img src="images/online_control.jpg" alt="online control" class="section-3_image">
-                            <span class="line"></span>
-                            <p class="section-3_text">At each facility, a camera is installed that broadcasts the progress of work on the clock. At any time, you can go to our website and monitor the progress of work in your apartment. You can watch the live broadcast from one of our facilities! Leave a request below and you will receive a link to the broadcast.</p>
-                            <div class="contacts">
-                                <input type="text">
-                                <input type="phone">
-                                <button class="button section-3_button" type="submit">SUBMIT</button>
-                                <div>Тут будет чекбокс</div>
+                            <div>
+                                <div class="section-3_image">
+                                <button class="button circle"></button>
+                                </div>
                             </div>
+                            <span class="section-3_overline"></span>
+                            <p class="section-3_text">At each facility, a camera is installed that broadcasts the progress of work on the clock. At any time, you can go to our website and monitor the progress of work in your apartment. You can watch the live broadcast from one of our facilities! </br> Leave a request below and you will receive a link to the broadcast.</p>
+                            <div class="contacts">
+                                <form class="form-wrapper">
+                                    <label class="label">Name</br><input type="text" required placeholder="What is your name:"class="section-3_input"></label>
+                                    </form>
+                                <form></form>
+                                <form class="form-wrapper">
+                                    <label class="label" for="number">Phone</br></label>
+                                    <input type="text" id="number" required placeholder="Your phone number:" class="section-3_input">
+                                    </form>
+                                <form></form>
+                                <button class="button section-3_button" type="submit">SUBMIT</button>
+                            </div>
+                            <label for="" class="checkbox_wrapper">
+                                <input class="bad_checkbox" type="checkbox">
+                                <span class="good_checkbox"></span>
+                                <span class="agreement">I agree to the processing of personal data</span>
+                            </label>
                         </div>
 
                     </div>
@@ -96,7 +111,11 @@
                 <section class="section-4">
                     <div class="container section-4_container">
                         <h3 class="section-4_heading">Types of repair</h3>
-                        <span>Тут будут иконки "ремонт"</span>
+                        <div class="horizontal_separation repair_icons">
+                            <span class="heading_line"></span>
+                            <img src="images/veсtor/tools.svg" alt="icon of tools" class="section-3_vector_tools">
+                            <span class="heading_line"></span>
+                        </div>
                         <div class="repair_types">
                             <div class="type redecorating">
                                 <div class="panel">
