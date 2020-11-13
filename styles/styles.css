@@ -346,7 +346,7 @@ body * {
     height: 434px;
 }
 
-.circle {
+.video_button {
     display: block;
     position: absolute;
     z-index: 2;
@@ -359,15 +359,15 @@ body * {
     border-radius: 50%;
 }
 
-.circle::before {
+.video_button::before {
     content:'';
     position: absolute;
     width: 28px;
     height: 28px;
-    /* right: 29px;
-    top: 29px; */
+    right: 29px;
+    top: 29px;
     background-image: url(../images/veсtor/Polygon.svg);
-    /* background-position: ; */
+    background-position: center right;
     background-repeat: no-repeat;
 }
 
