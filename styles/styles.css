@@ -359,6 +359,18 @@ body * {
     border-radius: 50%;
 }
 
+.circle::before {
+    content:'';
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    /* right: 29px;
+    top: 29px; */
+    background-image: url(../images/veсtor/Polygon.svg);
+    /* background-position: ; */
+    background-repeat: no-repeat;
+}
+
 .section-3_text {
     width: 681px;
     height: 131px;
@@ -401,26 +413,36 @@ body * {
     margin-top: 37px;
 }
 
-.bad_checkbox {
+.checkbox {
     display: none;
 }
 
 .good_checkbox {
     display: inline-block;
+    position: relative;
     width: 18px;
     height: 18px;
     background: #E3B873;
     border-radius: 1px;
     vertical-align: top;
+    margin-right: 8.5px;
 }
 
-.good_checkbox::after {
+.good_checkbox::before {
     content:'';
     position: absolute;
+    display: inline-block;
+    z-index: 3;
+    width: 18px;
+    height: 18px;
+    left: 0px;
     background-image: url(../images/veсtor/checkmark.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0;
 }
 
-.bad-checkbox:checked + .good_checkbox::after{
+.checkbox:checked + .good_checkbox::before{
     opacity: 1;
   }
 
