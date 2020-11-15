@@ -20,6 +20,15 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li::marker {
+    unicode-bidi: normal;
+}
+
 p {
     margin: 0;
 }
@@ -161,7 +170,7 @@ input {
     cursor: pointer;
 }
 
-.s2_heading {
+.section-2_heading {
     margin-top: 69px;
     margin-bottom: 34px;
     font-size: 27px;
@@ -174,6 +183,10 @@ input {
     height: 86px;
     font-size: 14px;
     line-height: 27px;
+}
+
+.section-2_text_mobile {
+    display: none;
 }
 
 .admiral_img {
@@ -339,6 +352,8 @@ input {
     height: 434px;
     margin-top: 72px;
     background-image: url(../images/online_control.jpg);
+    background-size: auto 100%;
+    background-position: center center;
 }
 
 .section-3_image::before {
@@ -498,7 +513,9 @@ input {
     font-size: 18px;
     line-height: 25px;
     color: #363636;
+    text-transform: none;
 }
+
 
 /* buttons */
 
@@ -567,8 +584,20 @@ input {
     /* common */
 
     .container {
-        padding-left: 18px;
+        /* padding-left: 18px; */
     }
+
+    .mobile_block {
+        display: block;
+    }
+
+    .mobile_inline {
+        display: inline;
+    }
+
+    .desktop {
+        display: none;
+    }   
     
     /* header */
 
@@ -610,13 +639,6 @@ input {
         width: 100%; 
     }
 
-    .mobile_button {
-        display: block;
-    }
-
-    .desktop_button {
-        display: none;
-    }   
     
     /* section-2 */
 
@@ -624,12 +646,29 @@ input {
         padding-top: 36px;
         display: flex;
         justify-content: center;
+        text-align: center;
+    }
+
+    .section-2_heading {
+        font-size: 22px;
+        line-height: 138.6%;
+        margin-top: 36px;
+        margin-bottom: 22px;
+    }
+
+    .section-2_text {
+        width: 311px;
+        font-size: 11px;
+        line-height: 17px;
     }
 
     .illustration, .pagination {
         display: none;
     }
 
+    .project_information {
+        width: 160px;
+    }
     /* section-3 */
 
     .section-3_container {
@@ -640,6 +679,7 @@ input {
     .section-3_image {
         width: 340px;
         height: 207px;
+        margin-top: 40px;
     }
 
     .section-3_image::before {
@@ -662,9 +702,8 @@ input {
         content:'';
         position: absolute;
         width: 12px;
-        height: 12px;
-        right: 12.5px;
-        top: 12.5px;
+        right: 10.5px;
+        top: 4.5px;
         background-image: url(../images/veсtor/Polygon.svg);
         background-position: center right;
         background-repeat: no-repeat;
@@ -680,12 +719,14 @@ input {
 
     .contacts {
         flex-direction: column;
+        margin-top: 61px;
     }
 
     .form-wrapper {
         width: 340px;
         height: 45px;
-        margin-top: 62px;
+        margin-bottom: 62px;
+        margin-right: 0px;
         text-align: left;
     }
 
@@ -698,7 +739,7 @@ input {
         line-height: 19px;
         color: #ffffff;
         background-color: transparent;
-        border-bottom: 1px solid rgba(54, 54, 54, 0.3);;
+        border-bottom: 1px solid #ffffff;
         width: 340px;
         height: 45px;
     }
