@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 ul {
-    margin: 0;
+    /* margin: 0; */
     padding: 0;
 }
 
@@ -197,20 +197,20 @@ input {
     display: none;
 }
 
-.admiral_img {
+.section-2_desktop-image {
     display: block;
     width: 679px;
     height: 482px;
     padding-top: 53px;
 }
 
-.description {
+.characteristics {
     width: 442px;
     display: flex;
     flex-wrap: wrap;
 }
 
-.description h3 {
+.characteristics h3 {
     font-size: 18px;
     line-height: 25px;
     margin-top: 32px;
@@ -503,11 +503,14 @@ input {
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
     width: 330px;
     height: 286px;
-    padding: 25px 31px 0;
     position: relative;
     left: 31px;
     top: 294px;
     text-align: left;
+}
+
+.list {
+    padding: 25px 31px 0px;
 }
 
 .panel li {
@@ -551,6 +554,7 @@ input {
 .price_button {
     width: 228px;
     height: 54px;
+    font-family: Yeseva One;
     font-style: normal;
     font-size: 18px;
     line-height: 25px;
@@ -674,11 +678,19 @@ input {
         line-height: 17px;
     }
 
-    .description {
+    .section-2_mobile-image {
+        width: 340px;
+        height: 241px;
+        background-image: url(../images/admiral_mob.jpg);
+        margin-top: 36px;
+        margin-bottom: 10px;
+    }
+
+    .characteristics {
         width: 340px;
     }
 
-    .description h3 {
+    .characteristics h3 {
         font-size: 14px;
         line-height: 19px;
         margin-top: 27px;
@@ -785,7 +797,6 @@ input {
 
     .repair_types {
         flex-direction: column;
-        margin-left: 18px;
         width: 340px;
     }
 
@@ -801,5 +812,23 @@ input {
         height: 241px;
         font-size: 13px;
         line-height: 22px;
+        left: 0px;
+        top: 244px;
+    }
+    
+    .list {
+        padding: 21px 31px 0px;
+    }
+
+    .panel li {
+        margin: -5px;
+    }
+
+    .price_button {
+        font-size: 15px;
+        line-height: 138.6%;
+        width: 190px;
+        height: 40px;
+        align-self: flex-start;
     }
   }
