@@ -71,6 +71,14 @@ input {
     border: 0px;
 }
 
+.mobile_inline {
+    display: none;
+}
+
+.mobile_block {
+    display: none;
+}
+
 /* header */
 
 
@@ -198,7 +206,6 @@ input {
 
 .description {
     width: 442px;
-    height: 290px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -536,11 +543,7 @@ input {
     margin-right: 20px;
 }
 
-.mobile_button {
-    display: none;
-}
-
-.section-3_button {
+.submit_button {
     height: 51px;
     width: 200px;
 }
@@ -599,6 +602,11 @@ input {
         display: none;
     }   
     
+    .button {
+        max-width: 338.61px;
+        width: 100%; 
+    }
+
     /* header */
 
     .header-navigation, .call-button{
@@ -614,6 +622,7 @@ input {
         color: white;
         text-decoration: none;
     }
+    
 
     /* section_1  */
 
@@ -634,9 +643,7 @@ input {
     }   
 
     .section-1_button {
-        max-width: 338.61px;
         margin-top: 26px;
-        width: 100%; 
     }
 
     
@@ -644,9 +651,14 @@ input {
 
     .section-2_content {
         padding-top: 36px;
-        display: flex;
         justify-content: center;
+    }
+
+    .completed_projects {
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .section-2_heading {
@@ -662,13 +674,28 @@ input {
         line-height: 17px;
     }
 
-    .illustration, .pagination {
-        display: none;
+    .description {
+        width: 340px;
+    }
+
+    .description h3 {
+        font-size: 14px;
+        line-height: 19px;
+        margin-top: 27px;
     }
 
     .project_information {
         width: 160px;
+        text-align: left;
     }
+
+    .project_information p {
+        font-size: 11px;
+        line-height: 18px;
+        margin-top: 13px;
+    }
+
+
     /* section-3 */
 
     .section-3_container {
@@ -689,6 +716,11 @@ input {
         background-color: rgba(0, 0, 0, 0.8);
         width: 340px;
         height: 207px;
+    }
+
+    .submit_button {
+        position: relative;
+        top: 25px;
     }
 
     .video_button {
@@ -719,13 +751,13 @@ input {
 
     .contacts {
         flex-direction: column;
-        margin-top: 61px;
+        margin-top: 0px;
     }
 
     .form-wrapper {
         width: 340px;
         height: 45px;
-        margin-bottom: 62px;
+        margin-top: 62px;
         margin-right: 0px;
         text-align: left;
     }
@@ -742,6 +774,11 @@ input {
         border-bottom: 1px solid #ffffff;
         width: 340px;
         height: 45px;
+    }
+
+    .checkbox_wrapper {
+        text-align: left;
+        margin-top: 48px;
     }
 
     /* section-4 */
