@@ -147,7 +147,7 @@ input {
 }
 
 
-/* section-2 */
+/* section 2 */
 
 .section-2 {
     background-color: #131313;
@@ -157,6 +157,12 @@ input {
     padding-top: 107px;
     padding-bottom: 415px;
     display: flex;
+    justify-content: space-between;
+}
+
+.completed_projects {
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
@@ -180,7 +186,6 @@ input {
 
 .section-2_heading {
     margin-top: 69px;
-    margin-bottom: 34px;
     font-size: 27px;
     line-height: 37px;
     height: 66px;
@@ -213,7 +218,6 @@ input {
 .characteristics h3 {
     font-size: 18px;
     line-height: 25px;
-    margin-top: 32px;
 }
 
 .project_information p {
@@ -224,10 +228,10 @@ input {
 
 .project_information {
     width: 180px;
+    margin-bottom: 32px;
 }
 
 .pagination {
-    margin-top: 80px;
     width: 206px;
 }
 
@@ -484,6 +488,7 @@ input {
 .type {
     width: 392px;
     height: 421px;
+    background-size: 100% 100%;
 }
 
 .redecorating {
@@ -585,14 +590,11 @@ input {
     background-repeat: no-repeat;
 }
 
+
 /* media styles */
 
 @media screen and (max-width: 1299px) {
     /* common */
-
-    .container {
-        /* padding-left: 18px; */
-    }
 
     .mobile_block {
         display: block;
@@ -634,9 +636,10 @@ input {
         padding: 85px 18px 61px;
     }
     
-    .heading {
+    .section-1_heading {
+        max-width: 339px;
         font-size: 23px;
-        line-height: 132.83%;
+        line-height: 30px;
     }
 
     .section-1_text {
@@ -651,7 +654,7 @@ input {
     }
 
     
-    /* section-2 */
+    /* section 2 */
 
     .section-2_content {
         padding-top: 36px;
@@ -663,6 +666,7 @@ input {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: space-between;
     }
 
     .section-2_heading {
@@ -684,6 +688,51 @@ input {
         background-image: url(../images/admiral_mob.jpg);
         margin-top: 36px;
         margin-bottom: 10px;
+        display: flex;
+    }
+    
+    .buttons_wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin: 103px 14px 0px;
+        width: 340px;
+    }
+
+    .arrow_button {
+        display: block;
+        position: relative;
+        width: 36px;
+        height: 36px;
+        background: #E3B873;
+        box-shadow: 0px 5px 30px rgba(227, 184, 115, 0.2);
+        border-radius: 50%;
+    }
+
+    .arrow_button_left::before {
+        content:'';
+        position: absolute;
+        z-index: 2;
+        width: 35px;
+        height: 35px;
+        top: 0px;
+        right: 0px;
+        display: block;
+        background-image: url(../images/veсtor/arrow-left.svg);
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    .arrow_button_right::before {
+        content:'';
+        position: absolute;
+        z-index: 2;
+        width: 35px;
+        height: 35px;
+        top: 0px;
+        right: 0px;
+        background-image: url(../images/veсtor/arrow-right.svg);
+        background-position: center center;
+        background-repeat: no-repeat;
     }
 
     .characteristics {
@@ -699,6 +748,7 @@ input {
     .project_information {
         width: 160px;
         text-align: left;
+        margin: 0px;
     }
 
     .project_information p {
@@ -806,6 +856,10 @@ input {
         height: 365px;
     }
     
+    .overhaul {
+        background-image: url(../images/overhaul_mobile.jpg);
+    }
+
     .panel {
         /* display: none; */
         width: 270px;
