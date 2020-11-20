@@ -111,8 +111,11 @@ input {
 }
 
 .header-navigation a {
-    color: rgb(255,255,255,1);
     text-decoration: none;
+}
+
+.header-link {
+    color: rgb(255,255,255,1);
 }
 
 
@@ -531,6 +534,13 @@ input {
     text-transform: none;
 }
 
+
+/* section 5 */
+
+.section-5 {
+    background-color: black;
+    height: 100px;
+}
 
 /* buttons */
 
