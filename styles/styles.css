@@ -118,6 +118,10 @@ input {
     color: rgb(255,255,255,1);
 }
 
+.header-link:hover {
+    color: #E3B873;
+}
+
 
 /* section-1 */
 
@@ -185,6 +189,7 @@ input {
 
 .project_name:hover {
     cursor: pointer;
+    color: #E3B873;
 }
 
 .section-2_heading {
@@ -326,8 +331,7 @@ input {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: black;
-    
+    color: black;  
 }
 
 .section-3_heading {
@@ -412,6 +416,10 @@ input {
     border-bottom: 1px solid rgba(54, 54, 54, 0.3);;
     width: 231px;
     height: 32px;
+}
+
+.section-3_input::placeholder {
+    color: white;
 }
 
 .checkbox_wrapper {
