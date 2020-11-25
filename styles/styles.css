@@ -26,6 +26,12 @@ h2 {
     color: #E3B873;
 }
 
+h3 {
+    font-size: 20px;
+    line-height: 28px;
+    color: #181818;
+}
+
 ul {
     padding: 0;
     list-style-position: inside;
@@ -231,7 +237,7 @@ input {
     flex-wrap: wrap;
 }
 
-.characteristics h3 {
+.characteristics h4 {
     font-size: 18px;
     line-height: 25px;
 }
@@ -344,8 +350,6 @@ input {
 
 .section-3_heading {
     color: white;
-    font-size: 20px;
-    line-height: 28px;
 }
 
 .section-3_headings-items {
@@ -485,11 +489,6 @@ input {
     align-items: center;
 }
 
-.section-4_heading {
-    font-size: 18px;
-    line-height: 25px;
-}
-
 .repair_icons {
     width: 114px;
     height: 28px;
@@ -542,7 +541,7 @@ input {
     color: #959595;
 }
 
-.panel h4 {
+.panel h5 {
     font-size: 18px;
     line-height: 25px;
     color: #363636;
@@ -994,7 +993,7 @@ input {
         width: 340px;
     }
 
-    .characteristics h3 {
+    .characteristics h4 {
         font-size: 14px;
         line-height: 19px;
         margin-top: 27px;
@@ -1102,7 +1101,7 @@ input {
         margin-top: 48px;
     }
 
-    /* section-4 */
+    /* section 4 */
 
     .repair_types {
         flex-direction: column;
@@ -1120,7 +1119,6 @@ input {
     }
 
     .panel {
-        /* display: none; */
         width: 270px;
         height: 241px;
         font-size: 13px;
