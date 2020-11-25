@@ -20,6 +20,12 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+h2 {
+    font-size: 27px;
+    line-height: 37px;
+    color: #E3B873;
+}
+
 ul {
     padding: 0;
     list-style-position: inside;
@@ -196,11 +202,11 @@ input {
 
 .section-2_heading {
     margin-top: 69px;
-    font-size: 27px;
-    line-height: 37px;
     height: 66px;
     width: 253px;
+    letter-spacing: -0.07em;
 }
+
 .section-2_text {
     width: 442px;
     height: 86px;
@@ -702,7 +708,37 @@ input {
     box-shadow: 0px 10px 20px rgba(237, 192, 120, 0.2); 
 }
 
+
+
+/* section 6 */
+
+
+.section-6 {
+    background-image: url(../images/section-6_background.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.section-6_shading {
+    background: linear-gradient(109.8deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.9) 100%);
+}
+
+.section-6_container {
+    padding-top: 137.5px;
+    display: flex;
+}
+
+.section-6_menu {
+    margin-left: 97.5px;
+    margin-right: 189px;
+    width: 299px;
+    height: 516px;
+}
+
+
 /* buttons */
+
+
 
 .call-button {
     padding: 13px 33px;
