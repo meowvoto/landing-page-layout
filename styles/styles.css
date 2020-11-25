@@ -726,15 +726,64 @@ input {
 .section-6_container {
     padding-top: 137.5px;
     display: flex;
+    height: 864px;
+}
+
+.section-6_heading {
+    width: 411px;
+    margin-bottom: 47px;
 }
 
 .section-6_menu {
-    margin-left: 97.5px;
-    margin-right: 189px;
-    width: 299px;
+    margin-right: 77px;
+    width: 411px;
     height: 516px;
 }
 
+.section-6_list {
+    width: 299px;
+    height: 516px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-6_list-item {
+    font-size: 20px;
+    line-height: 38px;
+    list-style-type: none;
+}
+
+.section-6_list-item:hover {
+    color: #E3B873;
+}
+
+.section-6_photo-left, .section-6_photo-right {
+    width: 354px;
+    position: relative;
+    margin-right: 43px;
+}
+
+.section-6_image-1, .section-6_image-2 {
+    margin-bottom: 38px;
+}
+
+.section-6_photo-left {
+    bottom: 179px;
+}
+
+.section-6_photo-right {
+    bottom: 250px;
+}
+
+
+/* section 7 */
+
+
+.section-7 {
+    margin-top: 110.5px;
+
+}
 
 /* buttons */
 
