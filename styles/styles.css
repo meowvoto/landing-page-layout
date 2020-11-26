@@ -49,6 +49,11 @@ input {
     border: 0px;
 }
 
+.input {
+    font-size: 14px;
+    line-height: 23px;
+    background-color: transparent;  
+}
 
 
 .beige {
@@ -424,8 +429,6 @@ input {
 }
 
 .section-3_input {
-    font-size: 14px;
-    line-height: 23px;
     color: #363636;
     border-bottom: 1px solid rgba(54, 54, 54, 0.3);;
     width: 231px;
@@ -662,7 +665,6 @@ input {
 .section-5_input {
     width: 408px;
     height: 33px;
-    background-color: transparent;
     border-bottom: solid 1px rgba(255, 255, 255, 0.15);
 }
 
@@ -1285,7 +1287,6 @@ input {
         font-size: 14px;
         line-height: 19px;
         color: #ffffff;
-        background-color: transparent;
         border-bottom: 1px solid #ffffff;
         width: 340px;
         height: 45px;
