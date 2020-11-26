@@ -55,6 +55,11 @@ input {
     background-color: transparent;  
 }
 
+.label {
+    font-size: 13px;
+    line-height: 21px;
+}
+
 
 .beige {
     color: rgba(227,184,115,1);
@@ -423,8 +428,6 @@ input {
 }
 
 .section-3_label {
-    font-size: 13px;
-    line-height: 21px;
     color: rgba(54, 54, 54, 0.5);
 }
 
@@ -657,8 +660,6 @@ input {
 }
 
 .section-5_label {
-    font-size: 13px;
-    line-height: 21px;
     color: rgba(255, 255, 255, 0.5);
 }
 
