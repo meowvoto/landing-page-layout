@@ -101,13 +101,10 @@ input {
     cursor: pointer;
 }
 
-.mobile_inline {
+.mobile_flex, .mobile_inline, .mobile_block {
     display: none;
 }
 
-.mobile_block {
-    display: none;
-}
 
 /* header */
 
@@ -745,7 +742,6 @@ input {
 .section-6_menu {
     margin-right: 77px;
     width: 411px;
-    height: 516px;
 }
 
 .section-6_list {
@@ -890,7 +886,7 @@ input {
 /* section 8 */
 
 .section-8 {
-    background: url(../images/last-section_background.jpg) center;
+    background: #131313 url(../images/last-section_background.jpg) center;
     background-size: 100% 100%;
     position: relative;
 }
@@ -906,20 +902,27 @@ input {
 }
 
 .hovering-form {
-    width: 883px;
-    height: 445.32px;
-    background: #181818;
-    position: absolute;
-    top: -222px;
+    /* width: 883px;
+    height: 445.32px; */
+   
 }
+
+.form_heading {
+    color: #fff;
+    padding-top: 34.5px;
+    padding-bottom: 45.8px;
+    text-align: center;
+ }
 
 .section-8_form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 46px auto 34px;
-    width: 520px;
-    height: 304px;
+    /* margin: 46px 0px 34px; */
+    padding: 0px 176px 34.4px;
+    background: #181818;
+    position: absolute;
+    top: -222px;
 }
 
 .section-8_fieldset {
@@ -948,12 +951,6 @@ input {
 
 .section-8_input::placeholder {
     color: white;
-}
-
-.form_heading {
-   color: #fff;
-   padding-top: 34.5px;
-   text-align: center;
 }
 
 .section-8_checkbox_wrapper {
@@ -1094,6 +1091,10 @@ input {
 
     .mobile_inline {
         display: inline;
+    }
+
+    .mobile_flex {
+        display: flex;
     }
 
     .desktop {
@@ -1379,4 +1380,58 @@ input {
         height: 40px;
         align-self: flex-start;
     }
+
+
+    /* section 8 mobile */
+
+    .section-8 {
+        background-image: none;
+    }
+
+    .section-8_icons {
+        width: 99px;
+        margin: 23.5px 0px 49px;
+    }
+
+    .mail_icon {
+        width: 20px;
+    }
+
+    .instagram_icon {
+        width: 20px;
+    }
+
+    .section-8_link {
+        width: 39px;
+        height: 39px;
+    }
+
+    .hovering-form {
+        width: 340px;
+        height: 445.32px;
+        position: relative;
+        top: -222px;
+    }
+
+    .section-8_form {
+
+    }
+
+    .iframe {
+        width: 340px;
+        height: 255px;
+        margin-bottom: 42px;
+    }
+
+    .section-8_heading {
+        font-size: 18px;
+        line-height: 25px;
+        padding-top: 0px;
+    }
+
+    .footer {
+        display: none;
+    }
+
+
   }
