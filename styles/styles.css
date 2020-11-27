@@ -918,7 +918,6 @@ input {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* margin: 46px 0px 34px; */
     padding: 0px 176px 34.4px;
     background: #181818;
     position: absolute;
@@ -1105,6 +1104,11 @@ input {
         max-width: 338.61px;
         width: 100%; 
     }
+
+    .input {
+        width: 340px;
+    }
+    
 
     /* header */
 
@@ -1406,15 +1410,36 @@ input {
         height: 39px;
     }
 
-    .hovering-form {
-        width: 340px;
-        height: 445.32px;
-        position: relative;
-        top: -222px;
+    .section-8_form {
+        position: static;
+        padding: 0px;
     }
 
-    .section-8_form {
+    .form_heading {
+        margin-top: 173px;
+        padding-top: 0px;
+        padding-bottom: 52px;
+    }
 
+    .section-8_input {
+        margin-bottom: 0px;
+    }
+
+    .section-8_fieldset {
+        flex-direction: column;
+        width: 340px;
+        height: 260px;
+        margin-bottom: 0px;
+    }
+
+    .section-8_checkbox_wrapper {
+        align-self: flex-start;
+        margin-bottom: 67px;
+        padding-top: 22px;
+    }
+
+    .section-8_mobile_button {
+        position: static;
     }
 
     .iframe {
