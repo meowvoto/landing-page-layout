@@ -101,7 +101,7 @@ input {
     cursor: pointer;
 }
 
-.mobile_flex, .mobile_inline, .mobile_block {
+.mobile_inline, .mobile_block {
     display: none;
 }
 
@@ -150,7 +150,7 @@ input {
 }
 
 
-/* section-1 */
+/* section 1 */
 
 .section-1{
     background-image: url(../images/image4.3.jpg);
@@ -1092,10 +1092,6 @@ input {
         display: inline;
     }
 
-    .mobile_flex {
-        display: flex;
-    }
-
     .desktop {
         display: none;
     }   
@@ -1107,85 +1103,6 @@ input {
 
     .input {
         width: 340px;
-    }
-    
-
-    /* header */
-
-    .header-navigation, .call-button{
-        display: none;
-    }
-
-    .header-wrapper {
-        padding: 23px 18px;
-        height: 57px;
-    }
-
-    .number {
-        color: white;
-        text-decoration: none;
-    }
-    
-
-    /* section_1  */
-
-    .section-1_content {
-        padding: 85px 18px 61px;
-    }
-    
-    .section-1_heading {
-        max-width: 339px;
-        font-size: 23px;
-        line-height: 30px;
-    }
-
-    .section-1_text {
-        font-size: 14px;
-        line-height: 135.84%;
-        margin-top: 16px;
-        margin-bottom: 32px;
-    }   
-
-    .section-1_button {
-        margin-top: 26px;
-    }
-
-    
-    /* section 2 */
-
-    .section-2_content {
-        padding-top: 36px;
-        justify-content: center;
-    }
-
-    .completed_projects {
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .section-2_heading {
-        font-size: 22px;
-        line-height: 138.6%;
-        margin-top: 36px;
-        margin-bottom: 22px;
-    }
-
-    .section-2_text {
-        width: 311px;
-        font-size: 11px;
-        line-height: 17px;
-    }
-
-    .section-2_mobile-image {
-        width: 340px;
-        height: 241px;
-        background-image: url(../images/admiral_mob.jpg);
-        margin-top: 36px;
-        margin-bottom: 10px;
-        display: flex;
     }
     
     .buttons_wrapper {
@@ -1232,6 +1149,85 @@ input {
         background-repeat: no-repeat;
     }
 
+    /* header */
+
+    .header-navigation, .call-button{
+        display: none;
+    }
+
+    .header-wrapper {
+        padding: 23px 18px;
+        height: 57px;
+    }
+
+    .number {
+        color: white;
+        text-decoration: none;
+    }
+    
+
+    /* section 1 mobile  */
+
+    .section-1_content {
+        padding: 85px 18px 61px;
+    }
+    
+    .section-1_heading {
+        max-width: 339px;
+        font-size: 23px;
+        line-height: 30px;
+    }
+
+    .section-1_text {
+        font-size: 14px;
+        line-height: 135.84%;
+        margin-top: 16px;
+        margin-bottom: 32px;
+    }   
+
+    .section-1_button {
+        margin-top: 26px;
+    }
+
+    
+    /* section 2 mobile */
+
+    .section-2_content {
+        padding-top: 36px;
+        justify-content: center;
+    }
+
+    .completed_projects {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .section-2_heading {
+        font-size: 22px;
+        line-height: 138.6%;
+        margin-top: 36px;
+        margin-bottom: 22px;
+    }
+
+    .section-2_text {
+        width: 311px;
+        font-size: 11px;
+        line-height: 17px;
+    }
+
+    .section-2_mobile-image {
+        width: 340px;
+        height: 241px;
+        background-image: url(../images/admiral_mob.jpg);
+        margin-top: 36px;
+        margin-bottom: 10px;
+        display: flex;
+    }
+
+
     .characteristics {
         width: 340px;
     }
@@ -1255,7 +1251,7 @@ input {
     }
 
 
-    /* section-3 */
+    /* section 3 mobile */
 
     .section-3_container {
         background-color: #131313;
@@ -1343,7 +1339,7 @@ input {
         margin-top: 48px;
     }
 
-    /* section 4 */
+    /* section 4 mobile*/
 
     .repair_types {
         flex-direction: column;
@@ -1385,6 +1381,28 @@ input {
         align-self: flex-start;
     }
 
+
+    /* section-6 mobile */
+
+    .section-6_mobile {
+        position: absolute;
+        top: -211px;
+    }
+
+    .section-6_heading {
+        text-align: center;
+        width: 340px;
+        font-size: 22px;
+        line-height: 138.6%;
+        margin-bottom: 24px;
+    }
+
+    .section-6_mobile-image {
+        width: 340px;
+        height: 241px;
+        background-image: url(../images/section-6_mobile.jpg);
+        display: flex;
+    }
 
     /* section 8 mobile */
 
