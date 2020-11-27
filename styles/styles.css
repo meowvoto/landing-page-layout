@@ -47,6 +47,7 @@ body * {
 
 input {
     border: 0px;
+    outline: none;
 }
 
 .input {
@@ -59,7 +60,6 @@ input {
     font-size: 13px;
     line-height: 21px;
 }
-
 
 .beige {
     color: rgba(227,184,115,1);
@@ -95,6 +95,10 @@ input {
 .horizontal_separation {
     display: flex;
     justify-content: space-between;
+}
+
+.checkbox_wrapper {
+    cursor: pointer;
 }
 
 .mobile_inline {
@@ -442,9 +446,8 @@ input {
     color: #363636;
 }
 
-.checkbox_wrapper {
+.section-3_checkbox_wrapper {
     margin-top: 37px;
-    cursor: pointer;
 }
 
 .checkbox {
@@ -666,6 +669,7 @@ input {
 .section-5_input {
     width: 408px;
     height: 33px;
+    color: #fff;
     border-bottom: solid 1px rgba(255, 255, 255, 0.15);
 }
 
@@ -912,16 +916,48 @@ input {
 .section-8_form {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    margin: 0 auto;
+    align-items: center;
+    margin: 46px auto 34px;
     width: 520px;
     height: 304px;
+}
+
+.section-8_fieldset {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 520px;
+    height: 138px;
+    margin-bottom: 46px;
+}
+
+.section-8_input {
+    border-bottom: solid 1px rgba(255, 255, 255, 0.15);
+    width: 231px;
+    margin-bottom: 48px;
+    color: white;
+}
+
+.question_input {
+    width: 520px;
+}
+
+.section-8_label {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.section-8_input::placeholder {
+    color: white;
 }
 
 .form_heading {
    color: #fff;
    padding-top: 34.5px;
    text-align: center;
+}
+
+.section-8_checkbox_wrapper {
+    margin-bottom: 50px;
 }
 
 .section-8_heading {
@@ -1297,7 +1333,7 @@ input {
         color: #ffffff;
     }
 
-    .checkbox_wrapper {
+    .section-3_checkbox-wrapper {
         text-align: left;
         margin-top: 48px;
     }
